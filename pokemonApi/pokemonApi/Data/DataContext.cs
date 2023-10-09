@@ -13,7 +13,7 @@ namespace pokemonApi.Data
         }
 
         //declaración de tablas, se usa Dbset<Model de tabla creado en Models>
-        public DbSet<Category> Cotegories { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<Owner> Owners { get; set; }
         public DbSet<Pokemon> Pokemon { get; set; }

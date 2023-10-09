@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using pokemonApi.Data;
+using pokemonApi.Interfaces;
+using pokemonApi.Repository;
 
 namespace pokemonApi
 {
@@ -11,9 +13,10 @@ namespace pokemonApi
 
             // Add services to the container.
 
-            
-
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
             builder.Services.AddControllers();
+
             //Agrego TRANSIENT con el archivo seed
             builder.Services.AddTransient<Seed>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
