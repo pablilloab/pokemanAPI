@@ -9,6 +9,8 @@ namespace pokemonApi.Mapper
         public MappinProfile()
         {
             CreateMap<Pokemon, PokemonDto>();
+
+            CreateMap<Category, CategoryDto>();
         }
     }
 }

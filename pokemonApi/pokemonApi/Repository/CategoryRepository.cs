@@ -21,17 +21,17 @@ namespace pokemonApi.Repository
 
         public ICollection<Category> GetCategories()
         {
-            throw new NotImplementedException();
+            return _context.Categories.ToList();
         }
 
         public Category GetCategory(int id)
         {
-            throw new NotImplementedException();
+            return _context.Categories.Where(c => c.Id == id).FirstOrDefault();
         }
 
         public ICollection<Pokemon> GetPokemonByCategory(int categoryId)
         {
-            throw new NotImplementedException();
+            return _context.PokemonCategories.Where(pc =>  pc.CategoryId == categoryId).Select(c => c.Pokemon).ToList();
         }
     }
 }
