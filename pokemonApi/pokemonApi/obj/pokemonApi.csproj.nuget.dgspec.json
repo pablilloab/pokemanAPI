@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pablo\\Documents\\C#\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj": {}
+    "C:\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pablo\\Documents\\C#\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj": {
+    "C:\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pablo\\Documents\\C#\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj",
+        "projectUniqueName": "C:\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj",
         "projectName": "pokemonApi",
-        "projectPath": "C:\\Users\\Pablo\\Documents\\C#\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj",
-        "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pablo\\Documents\\C#\\pokemanAPI\\pokemonApi\\pokemonApi\\obj\\",
+        "projectPath": "C:\\pokemanAPI\\pokemonApi\\pokemonApi\\pokemonApi.csproj",
+        "packagesPath": "C:\\Users\\pabab\\.nuget\\packages\\",
+        "outputPath": "C:\\pokemanAPI\\pokemonApi\\pokemonApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pabab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

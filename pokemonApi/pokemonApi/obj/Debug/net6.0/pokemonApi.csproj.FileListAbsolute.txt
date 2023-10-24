@@ -174,3 +174,5 @@ C:\Users\Pablo\Documents\C#\pokemanAPI\pokemonApi\pokemonApi\obj\Debug\net6.0\po
 C:\Users\Pablo\Documents\C#\pokemanAPI\pokemonApi\pokemonApi\obj\Debug\net6.0\ref\pokemonApi.dll
 C:\Users\Pablo\Documents\C#\pokemanAPI\pokemonApi\pokemonApi\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Pablo\Documents\C#\pokemanAPI\pokemonApi\pokemonApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\pokemanAPI\pokemonApi\pokemonApi\bin\Debug\net6.0\AutoMapper.dll
+C:\pokemanAPI\pokemonApi\pokemonApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

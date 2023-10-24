@@ -19,6 +19,8 @@ namespace pokemonApi.Interfaces
         //check si el pokemon existe
         bool PokemonExists(int pokeId);
 
+        bool CreatePokemon(int ownerId, int categoryId, Pokemon pokemon);
+        bool Save();
 
     }
 }
